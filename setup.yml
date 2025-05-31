@@ -1,0 +1,7 @@
+ - name: Basic Server Setup
+   hosts: local
+   become: True
+   tasks:
+     - name: Example Task
+       debug:
+         msg: This is a basic server setup
